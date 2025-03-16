@@ -8,8 +8,8 @@ export function sendUpload(option) {
     return new Promise(async (resolve, reject) => {
         // 参数
         const region = useUserStore().oss_region || "";
-        // const accessKeyId = useUserStore().oss_accessKeyId || "";
-        // const secretAccessKey = useUserStore().oss_secretAccessKey || "";
+        // const accessKeyId = process.env.ACCESS_KEY_ID; useUserStore().oss_accessKeyId || "";
+        // const secretAccessKey = process.env.ACCESS_KEY_SECRET; useUserStore().oss_secretAccessKey || "";
         // const bucketName = useUserStore().oss_bucket_name || "";
         const targetUrl = useUserStore().oss_targetUrl || ''
 
