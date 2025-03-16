@@ -7,11 +7,11 @@ import useUserStore from '@/store/modules/user'
 export function sendUpload(option) {
     return new Promise(async (resolve, reject) => {
         // 参数
-        const region = useUserStore().oss_region || "oss-cn-guangzhou";
-        const accessKeyId = useUserStore().oss_accessKeyId || "LTAI5tPnCkwsaxTCg6EFJpAm";
-        const secretAccessKey = useUserStore().oss_secretAccessKey || "WjhKQ2dXWgX6cH0ifQXVdjd9rfiaPN";
-        const bucketName = useUserStore().oss_bucket_name || "ai-workbench";
-        const targetUrl = useUserStore().oss_targetUrl || 'https://ai-workbench.oss-cn-guangzhou.aliyuncs.com'
+        const region = useUserStore().oss_region || "";
+        // const accessKeyId = useUserStore().oss_accessKeyId || "";
+        // const secretAccessKey = useUserStore().oss_secretAccessKey || "";
+        // const bucketName = useUserStore().oss_bucket_name || "";
+        const targetUrl = useUserStore().oss_targetUrl || ''
 
         // 初始化OSS
         const aliOSS = new OSS({
