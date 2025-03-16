@@ -1,0 +1,14 @@
+[
+    {
+        "name": "底部",
+        "value": "bottom"
+    },
+    {
+        "name": "居中",
+        "value": "center"
+    },
+    {
+        "name": "顶部",
+        "value": "top"
+    }
+]

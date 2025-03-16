@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>使用浏览器打开</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    .app {
+        padding: 0 0 0 32px;
+        box-sizing: border-box;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    img {
+        width: 93%;
+        height: auto;
+    }
+
+    .writ {
+        width: 100%;
+        padding: 0 32px 0 0;
+        box-sizing: border-box;
+    }
+
+    .writ-desc {
+        color: white;
+        font-size: 24px;
+        letter-spacing: 0.2em;
+    }
+</style>
+
+<body>
+    <div class="app">
+        <div class="content">
+            <img id='img' src="https://ai-workbench.eos-dongguan-7.cmecloud.cn/empty/wechat_guide.png" alt="指引">
+        </div>
+        <div class="writ">
+            <p class="writ-desc">因微信内置浏览器兼容异常，通过手机浏览器访问可进行创作。</p>
+        </div>
+    </div>
+    <script>
+        window.history.replaceState(null, null, 'https://www.ai168.space');  // 替换地址栏，不会进行reload操作
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+{
+    "cameraMode": [
+        {
+            "name": "肖像",
+            "prompt": "Portrait"
+        },
+        {
+            "name": "头像",
+            "prompt": "Head portrait"
+        },
+        {
+            "name": "肩部以上肖像",
+            "prompt": "Head and shoulders portrait"
+        },
+        {
+            "name": "半身像",
+            "prompt": "Half-length portrait"
+        },
+        {
+            "name": "全身像",
+            "prompt": "Full-length portrait"
+        },
+        {
+            "name": "全身像",
+            "prompt": "Full body"
+        },
+        {
+            "name": "脸部肖像",
+            "prompt": "Face"
+        },
+        {
+            "name": "特写",
+            "prompt": "Close-up"
+        }
+    ],
+    "genderMode": [
+        {
+            "name": "女性",
+            "prompt": "Women"
+        },
+        {
+            "name": "男性",
+            "prompt": "Man"
+        }
+    ],
+    "faceShapeMode": [
+        {
+            "name": "椭圆形",
+            "prompt": "Oval"
+        },
+        {
+            "name": "圆形",
+            "prompt": "Round"
+        },
+        {
+            "name": "方形",
+            "prompt": "Square"
+        },
+        {
+            "name": "心形",
+            "prompt": "Heart-shaped"
+        },
+        {
+            "name": "长形",
+            "prompt": "Long"
+        },
+        {
+            "name": "长方形",
+            "prompt": "Rectangle"
+        },
+        {
+            "name": "三角形",
+            "prompt": "Triangle"
+        },
+        {
+            "name": "倒三角形",
+            "prompt": "Inverted Triangle"
+        },
+        {
+            "name": "梨形",
+            "prompt": "Pear-shaped"
+        },
+        {
+            "name": "长椭圆形",
+            "prompt": "Oblong"
+        },
+        {
+            "name": "方圆形",
+            "prompt": "Square Round"
+        },
+        {
+            "name": "方椭圆形",
+            "prompt": "Square Oval"
+        }
+    ],
+    "hairstyleMode": [
+        {
+            "name": "不对称剪裁",
+            "prompt": "Asymmetrical cut"
+        },
+        {
+            "name": "直剪",
+            "prompt": "Blunt cut"
+        },
+        {
+            "name": "波波头",
+            "prompt": "Bob cut"
+        },
+        {
+            "name": "编织波波头",
+            "prompt": "Braided bob"
+        },
+        {
+            "name": "寸头",
+            "prompt": "Buzz cut"
+        },
+        {
+            "name": "碎发剪裁",
+            "prompt": "Choppy cut"
+        },
+        {
+            "name": "卷发波波头",
+            "prompt": "Curly bob"
+        },
+        {
+            "name": "幕帘刘海",
+            "prompt": "Curtain bangs"
+        },
+        {
+            "name": "飞机头",
+            "prompt": "Faux hawk"
+        },
+        {
+            "name": "羽毛剪裁",
+            "prompt": "Feathered cut"
+        },
+        {
+            "name": "法式波波头",
+            "prompt": "French bob"
+        },
+        {
+            "name": "层次剪裁",
+            "prompt": "Layered cut"
+        },
+        {
+            "name": "长波波头",
+            "prompt": "Long bob"
+        },
+        {
+            "name": "莫霍克发型",
+            "prompt": "Mohawk"
+        },
+        {
+            "name": "精灵短发",
+            "prompt": "Pixie cut"
+        },
+        {
+            "name": "散乱剪裁",
+            "prompt": "Shag cut"
+        },
+        {
+            "name": "侧扫刘海",
+            "prompt": "Side-swept bangs"
+        },
+        {
+            "name": "质感剪裁",
+            "prompt": "Textured cut"
+        },
+        {
+            "name": "底层剪裁",
+            "prompt": "Undercut"
+        },
+        {
+            "name": "波浪波波头",
+            "prompt": "Wavy bob"
+        },
+        {
+            "name": "飞机头+精灵短发",
+            "prompt": "Faux hawk short pixie"
+        },
+        {
+            "name": "短发剃边",
+            "prompt": "Brave short haircut with shaved sides"
+        },
+        {
+            "name": "剃边锥形发型",
+            "prompt": "Tapered haircut with shaved side"
+        },
+        {
+            "name": "层叠波波头",
+            "prompt": "Stacked bob"
+        },
+        {
+            "name": "柠檬辫",
+            "prompt": "Lemonade braids"
+        },
+        {
+            "name": "中分马尾",
+            "prompt": "Middle part ponytails"
+        },
+        {
+            "name": "编织辫",
+            "prompt": "Stitch braids"
+        },
+        {
+            "name": "深侧分",
+            "prompt": "Deep side part"
+        },
+        {
+            "name": "法式辫",
+            "prompt": "French braids"
+        },
+        {
+            "name": "盒子辫",
+            "prompt": "Box braids"
+        },
+        {
+            "name": "双荷兰辫",
+            "prompt": "Two dutch braids"
+        },
+        {
+            "name": "波浪剪裁帘式刘海",
+            "prompt": "Wavy cut with curtains bangs"
+        },
+        {
+            "name": "右侧剃光",
+            "prompt": "Right side shaved"
+        },
+        {
+            "name": "扫式精灵",
+            "prompt": "Sweeping pixie"
+        },
+        {
+            "name": "光滑长波波头",
+            "prompt": "Smooth lob"
+        },
+        {
+            "name": "长精灵",
+            "prompt": "Long pixie"
+        },
+        {
+            "name": "侧扫精灵",
+            "prompt": "Sideswept pixie"
+        },
+        {
+            "name": "意式波波头",
+            "prompt": "Italian bob"
+        },
+        {
+            "name": "短长组合",
+            "prompt": "Shullet"
+        }
+    ],
+    "hairstyleColorMode": [
+        {
+            "name": "黑色",
+            "prompt": "Black"
+        },
+        {
+            "name": "棕色",
+            "prompt": "Brown"
+        },
+        {
+            "name": "金色",
+            "prompt": "Blonde"
+        },
+        {
+            "name": "红色",
+            "prompt": "Red"
+        },
+        {
+            "name": "赤褐色",
+            "prompt": "Auburn"
+        },
+        {
+            "name": "栗色",
+            "prompt": "Chestnut"
+        },
+        {
+            "name": "灰色",
+            "prompt": "Gray"
+        },
+        {
+            "name": "白色",
+            "prompt": "White"
+        },
+        {
+            "name": "灰白混合色",
+            "prompt": "Salt and pepper"
+        }
+    ],
+    "clothingMode": [
+        {
+            "name": "百褶连衣裙",
+            "prompt": "Pleated dress"
+        },
+        {
+            "name": "连衣裙",
+            "prompt": "Dress"
+        },
+        {
+            "name": "学校制服",
+            "prompt": "School uniform"
+        },
+        {
+            "name": "白色连衣裙",
+            "prompt": "White dress"
+        },
+        {
+            "name": "洛丽塔风格",
+            "prompt": "Lolita fashion"
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+@use './transition.scss';
+
+/* 默认样式 */
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, 'Helvetica Neue', Helvetica, 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none; // 隐藏全局滚动条
+  // width: 4px;
+  // height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #0a6bbe;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #ededfc;
+}
+
+#nprogress .bar {
+  background: #0a6bbe !important;
+}
+
+
+// #nprogress .peg {
+//   box-shadow: 0 0 10px red, 0 0 5px red !important;
+// }
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.text-ellipsis-one {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.text-ellipsis-auto {
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+.customizer-btn .icon {
+  animation: circular-rotate 1.6s linear infinite;
+  transform-origin: center center;
+  transition: all 0.2s ease-in-out;
+}
+
+.video {
+  width: 100%;
+  height: 446px;
+  object-fit: contain;
+}
+
+
+@keyframes circular-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.prominent_border {
+  border: 4px solid black;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+
+/* 显示动画 */
+.custom_elevation {
+  animation: custom_elevation 2.2s;
+}
+
+@keyframes custom_elevation {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* 图片正片叠底效果 */
+.backgroud_Img_full {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, .3) no-repeat center center;
+  background-size: 100%;
+  filter: brightness(.5) blur(5px);
+  transform-origin: center center;
+  transform: scale(1.2);
+  object-fit: cover;
+}
+
+
+// 鼠标悬停图片放大效果
+.zoomed {
+  transition: all 450ms;
+}
+.zoomed:hover {
+  transform: scale(1.1);
+}
